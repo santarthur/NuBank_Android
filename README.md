@@ -1,46 +1,57 @@
-## AndroidNuBank
+## NuBankAndroid
 Este projeto marca meu primeiro contato com desenvolvimento mobile Android utilizando Java . Inspirado no app do Nubank, o objetivo foi construir um aplicativo simples com múltiplas telas, focando na passagem de dados entre Atividades e na manipulação de elementos da interface .
 
 <br>
 
-##📱 Sobre o Projeto
+## 📱 Sobre o Projeto
 O app simula uma experiência de transferência de valores com três telas diferentes. O usuário pode aumentar ou diminuir um número, e esse valor é transferido entre as telas, sendo atualizado e reaproveitado em cada etapa.
 
 <br>
 
-##🚀 Funcionalidades
+ 🚀 Funcionalidades
 
 ✅ Tela 1 – MainActivity:
 <ul>
 Exibe o valor atual
+<br>
 Botões + e – para alterar o valor
+<br>
 Botão para ir na próxima tela , enviando o valor viaIntent
 </ul>
 ✅ Tela 2 – PrincipalActivity:
 <ul>
 Recebe o valor da tela anterior
+<br>
 Permite modificá-lo com botões + e –
+<br>
 Envie o valor para a próxima tela
+<br>
 </ul>
 ✅ Tela 3 – TransferenciaActivity:
 <ul>
 Receba o valor atualizado
+<br>
 Continuar permitindo alterações
+<br>
 Exibe o valor de forma destacada
+<br>
 Possui botão para retornar à primeira tela, mantendo o valor atualizado
 </ul>
 
 <br>
 
-##🧱 Estrutura do Projeto
+## 🧱 Estrutura do Projeto
 - MainActivity.java→ Primeira tela
+<br>
 -PrincipalActivity.java→ Segunda tela
+<br>
 -TransferenciaActivity.java→ Terceira tela
+<br>
 -activity_main.xml, activity_principal.xml, activity_transferencia.xml→ Layouts de telas
 
 <br>
 
-##💡 Conceitos Aplicados
+## 💡 Conceitos Aplicados
 Passagem de dados entre Atividades comIntent
 Retorno de valores comActivityResultLauncher
 Manipulação de componentes visuais ( TextView, Button, FloatingActionButton)
