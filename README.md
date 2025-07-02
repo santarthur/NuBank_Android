@@ -17,7 +17,7 @@ Botões + e – para alterar o valor
 Botão para ir na próxima tela , enviando o valor viaIntent
 </ul>
 ✅ Tela 2 – PrincipalActivity:
-<ul></ul>
+<ul>
 Recebe o valor da tela anterior
 Permite modificá-lo com botões + e –
 Envie o valor para a próxima tela
@@ -33,10 +33,10 @@ Possui botão para retornar à primeira tela, mantendo o valor atualizado
 <br>
 
 ##🧱 Estrutura do Projeto
-MainActivity.java→ Primeira tela
-PrincipalActivity.java→ Segunda tela
-TransferenciaActivity.java→ Terceira tela
-activity_main.xml, activity_principal.xml, activity_transferencia.xml→ Layouts de telas
+- MainActivity.java→ Primeira tela
+-PrincipalActivity.java→ Segunda tela
+-TransferenciaActivity.java→ Terceira tela
+-activity_main.xml, activity_principal.xml, activity_transferencia.xml→ Layouts de telas
 
 <br>
 
