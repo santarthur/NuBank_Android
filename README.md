@@ -52,12 +52,19 @@ Possui botão para retornar à primeira tela, mantendo o valor atualizado
 <br>
 
 ## 💡 Conceitos Aplicados
-Passagem de dados entre Atividades comIntent
-Retorno de valores comActivityResultLauncher
-Manipulação de componentes visuais ( TextView, Button, FloatingActionButton)
-Criação de layouts comConstraintLayout
-Organização de código para facilitar a reutilização e o entendimento do ciclo de vida das Atividades
+- Passagem de dados entre Atividades comIntent
+- Retorno de valores comActivityResultLauncher
+- Manipulação de componentes visuais ( TextView, Button, FloatingActionButton)
+- Criação de layouts comConstraintLayout
+- Organização de código para facilitar a reutilização e o entendimento do ciclo de vida das Atividades
 
 <br>
+
+## 🛠️ Tecnologias Utilizadas
+- Java
+- SDK Android (API 34)
+- Layout de Restrição
+- Componentes de material (FloatingActionButton)
+
 
 📘 Nota: Desenvolvido em parceria com um colega como parte de uma atividade acadêmica, esse projeto me permitiu explorar a lógica e a estrutura de um aplicativo Android, reforçando conceitos de navegação, estado e manipulação de dados em tempo real. Foi um passo importante na minha jornada como desenvolvedor mobile!
