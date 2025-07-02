@@ -8,16 +8,18 @@ O app simula uma experiência de transferência de valores com três telas difer
 
 <br>
 
- 🚀 Funcionalidades
+🚀 Funcionalidades
 
 ✅ Tela 1 – MainActivity:
 - Exibe o valor atual
 - Botões + e – para alterar o valor
 - Botão para ir na próxima tela , enviando o valor viaIntent
+
 ✅ Tela 2 – PrincipalActivity:
 - Recebe o valor da tela anterior
 - Permite modificá-lo com botões + e –
 - Envie o valor para a próxima tela
+
 ✅ Tela 3 – TransferenciaActivity:
 - Receba o valor atualizado
 - Continuar permitindo alterações
