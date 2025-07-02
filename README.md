@@ -11,43 +11,26 @@ O app simula uma experiência de transferência de valores com três telas difer
  🚀 Funcionalidades
 
 ✅ Tela 1 – MainActivity:
-<ul>
-Exibe o valor atual
-<br>
-Botões + e – para alterar o valor
-<br>
-Botão para ir na próxima tela , enviando o valor viaIntent
-</ul>
+- Exibe o valor atual
+- Botões + e – para alterar o valor
+- Botão para ir na próxima tela , enviando o valor viaIntent
 ✅ Tela 2 – PrincipalActivity:
-<ul>
-Recebe o valor da tela anterior
-<br>
-Permite modificá-lo com botões + e –
-<br>
-Envie o valor para a próxima tela
-<br>
-</ul>
+- Recebe o valor da tela anterior
+- Permite modificá-lo com botões + e –
+- Envie o valor para a próxima tela
 ✅ Tela 3 – TransferenciaActivity:
-<ul>
-Receba o valor atualizado
-<br>
-Continuar permitindo alterações
-<br>
-Exibe o valor de forma destacada
-<br>
-Possui botão para retornar à primeira tela, mantendo o valor atualizado
-</ul>
+- Receba o valor atualizado
+- Continuar permitindo alterações
+- Exibe o valor de forma destacada
+- Possui botão para retornar à primeira tela, mantendo o valor atualizado
 
 <br>
 
 ## 🧱 Estrutura do Projeto
 - MainActivity.java→ Primeira tela
-<br>
--PrincipalActivity.java→ Segunda tela
-<br>
--TransferenciaActivity.java→ Terceira tela
-<br>
--activity_main.xml, activity_principal.xml, activity_transferencia.xml→ Layouts de telas
+- PrincipalActivity.java→ Segunda tela
+- TransferenciaActivity.java→ Terceira tela
+- activity_main.xml, activity_principal.xml, activity_transferencia.xml→ Layouts de telas
 
 <br>
 
